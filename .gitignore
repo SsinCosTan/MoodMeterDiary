@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gradle
 
 build/
@@ -29,18 +30,6 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-<<<<<<< HEAD
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-=======
->>>>>>> 165cea0 (project spring init)
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -145,4 +134,29 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
->>>>>>> 1ecfa37 (Initial commit)
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
