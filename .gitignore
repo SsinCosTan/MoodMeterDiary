@@ -176,7 +176,7 @@ out/
 /nbdist/
 /.nb-gradle/
 
-/application.properties/
+/resources/
 ### VS Code ###
 .vscode/
 
