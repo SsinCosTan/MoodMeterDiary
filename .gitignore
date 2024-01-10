@@ -122,7 +122,7 @@ HELP.md
 .gradle
 =======
 .gradle
-.properties
+
 build/
 >>>>>>> 165cea0 (project spring init)
 !gradle/wrapper/gradle-wrapper.jar
@@ -176,6 +176,7 @@ out/
 /nbdist/
 /.nb-gradle/
 
+/application.properties/
 ### VS Code ###
 .vscode/
 
