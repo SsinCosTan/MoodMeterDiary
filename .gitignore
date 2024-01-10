@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -119,11 +120,32 @@ replay_pid*
 
 HELP.md
 .gradle
+=======
+.gradle
+.properties
+build/
+>>>>>>> 165cea0 (project spring init)
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+<<<<<<< HEAD
 ### STS ###
+=======
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+>>>>>>> 165cea0 (project spring init)
 .apt_generated
 .classpath
 .factorypath
@@ -135,6 +157,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+<<<<<<< HEAD
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -144,6 +167,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
+=======
+>>>>>>> 165cea0 (project spring init)
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -154,5 +179,10 @@ out/
 ### VS Code ###
 .vscode/
 
+<<<<<<< HEAD
 ### resource ###
 .properties
+=======
+### Mac OS ###
+.DS_Store
+>>>>>>> 165cea0 (project spring init)
