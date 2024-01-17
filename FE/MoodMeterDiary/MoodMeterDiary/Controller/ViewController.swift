@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MoodMeterDiary
 //
-//  Created by minsong kim on 1/17/24.
+//  Created by mint on 1/17/24.
 //
 
 import UIKit
