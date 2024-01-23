@@ -13,6 +13,7 @@
 		92262E1B2B57F98000817DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92262E1A2B57F98000817DB2 /* Assets.xcassets */; };
 		92262E1E2B57F98000817DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92262E1C2B57F98000817DB2 /* LaunchScreen.storyboard */; };
 		929886182B5FEC4B009C5B16 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929886172B5FEC4B009C5B16 /* TabBarViewController.swift */; };
+		9298861A2B5FEFC3009C5B16 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929886192B5FEFC3009C5B16 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		92262E1D2B57F98000817DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92262E1F2B57F98000817DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929886172B5FEC4B009C5B16 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		929886192B5FEFC3009C5B16 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +86,9 @@
 		92262E272B57FB4500817DB2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				92262E152B57F97F00817DB2 /* MainViewController.swift */,
 				929886172B5FEC4B009C5B16 /* TabBarViewController.swift */,
+				92262E152B57F97F00817DB2 /* MainViewController.swift */,
+				929886192B5FEFC3009C5B16 /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				92262E162B57F97F00817DB2 /* MainViewController.swift in Sources */,
 				92262E122B57F97F00817DB2 /* AppDelegate.swift in Sources */,
+				9298861A2B5FEFC3009C5B16 /* ProfileViewController.swift in Sources */,
 				929886182B5FEC4B009C5B16 /* TabBarViewController.swift in Sources */,
 				92262E142B57F97F00817DB2 /* SceneDelegate.swift in Sources */,
 			);

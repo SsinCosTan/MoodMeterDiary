@@ -16,12 +16,15 @@ class TabBarViewController: UITabBarController {
     
     func setUpViewControllers() {
         let mainViewController = UINavigationController(rootViewController: MainViewController())
+        let profileViewController = UINavigationController(rootViewController: ProfileViewController())
         
         mainViewController.tabBarItem.title = "달력"
+        profileViewController.tabBarItem.title = "프로필"
         
         mainViewController.tabBarItem.image = UIImage(systemName: "calendar")
+        profileViewController.tabBarItem.image = UIImage(systemName: "person.circle.fill")
         
-        viewControllers = [mainViewController]
+        viewControllers = [mainViewController, profileViewController]
     }
 }
 
