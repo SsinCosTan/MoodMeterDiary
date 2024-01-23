@@ -14,6 +14,7 @@
 		92262E1E2B57F98000817DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92262E1C2B57F98000817DB2 /* LaunchScreen.storyboard */; };
 		929886182B5FEC4B009C5B16 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929886172B5FEC4B009C5B16 /* TabBarViewController.swift */; };
 		9298861A2B5FEFC3009C5B16 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929886192B5FEFC3009C5B16 /* ProfileViewController.swift */; };
+		9298861C2B5FF0E7009C5B16 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9298861B2B5FF0E7009C5B16 /* DiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		92262E1F2B57F98000817DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929886172B5FEC4B009C5B16 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		929886192B5FEFC3009C5B16 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9298861B2B5FF0E7009C5B16 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				929886172B5FEC4B009C5B16 /* TabBarViewController.swift */,
 				92262E152B57F97F00817DB2 /* MainViewController.swift */,
 				929886192B5FEFC3009C5B16 /* ProfileViewController.swift */,
+				9298861B2B5FF0E7009C5B16 /* DiaryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				92262E122B57F97F00817DB2 /* AppDelegate.swift in Sources */,
 				9298861A2B5FEFC3009C5B16 /* ProfileViewController.swift in Sources */,
 				929886182B5FEC4B009C5B16 /* TabBarViewController.swift in Sources */,
+				9298861C2B5FF0E7009C5B16 /* DiaryViewController.swift in Sources */,
 				92262E142B57F97F00817DB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

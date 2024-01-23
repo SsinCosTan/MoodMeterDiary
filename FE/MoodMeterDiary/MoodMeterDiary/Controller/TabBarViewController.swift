@@ -15,16 +15,19 @@ class TabBarViewController: UITabBarController {
     }
     
     func setUpViewControllers() {
-        let mainViewController = UINavigationController(rootViewController: MainViewController())
-        let profileViewController = UINavigationController(rootViewController: ProfileViewController())
+        let main = UINavigationController(rootViewController: MainViewController())
+        let profile = UINavigationController(rootViewController: ProfileViewController())
+        let diary = UINavigationController(rootViewController: DiaryViewController())
         
-        mainViewController.tabBarItem.title = "달력"
-        profileViewController.tabBarItem.title = "프로필"
+        main.tabBarItem.title = "달력"
+        profile.tabBarItem.title = "프로필"
+        diary.tabBarItem.title = "글쓰기"
         
-        mainViewController.tabBarItem.image = UIImage(systemName: "calendar")
-        profileViewController.tabBarItem.image = UIImage(systemName: "person.circle.fill")
+        main.tabBarItem.image = UIImage(systemName: "calendar")
+        profile.tabBarItem.image = UIImage(systemName: "person.circle.fill")
+        diary.tabBarItem.image = UIImage(systemName: "square.and.pencil")
         
-        viewControllers = [mainViewController, profileViewController]
+        viewControllers = [main, diary, profile]
     }
 }
 
