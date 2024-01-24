@@ -90,8 +90,8 @@
 			children = (
 				929886172B5FEC4B009C5B16 /* TabBarViewController.swift */,
 				92262E152B57F97F00817DB2 /* MainViewController.swift */,
-				929886192B5FEFC3009C5B16 /* ProfileViewController.swift */,
 				9298861B2B5FF0E7009C5B16 /* DiaryViewController.swift */,
+				929886192B5FEFC3009C5B16 /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
