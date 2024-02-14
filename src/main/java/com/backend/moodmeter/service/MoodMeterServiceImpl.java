@@ -27,6 +27,10 @@ public class MoodMeterServiceImpl implements MoodMeterService {
     public List<MoodMeterDto> getMoodMeterList() {
         return null;
     }
-    //Update 없음
     //Delete 삭제_일기 삭제 시 함께 삭제. 복원 가능
+    @Override
+    public void deleteMoodMeter(long bookId, long UserId) {
+        //Todo mapping BookId, userId DeletedAt
+    }
+
 }
