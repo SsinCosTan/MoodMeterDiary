@@ -1,5 +1,6 @@
 package com.backend.diary.service;
 
+import com.backend.diary.model.DiaryDto;
 import com.backend.diary.model.DiaryEntity;
 import com.backend.diary.model.DiaryRepository;
 import com.backend.moodmeter.config.MoodMeterColor;
@@ -21,9 +22,17 @@ public class DiaryServiceImpl implements DiaryService {
 
     //Todo UserID, DiaryID와 같이 저장 되어야 함
     @Override
-    public void setMoodMeter(MoodMeterColor moodMeterColor) {
-        MoodMeterEntity mood = MoodMeterEntity.builder().mood(moodMeterColor).build();
-        diaryRepository.save(DiaryEntity.builder().moodMeterEntity(mood).build());
+    public String setDiary(DiaryDto diaryDto) {
+    DiaryEntity diary = DiaryEntity.builder()
+        .title(diaryDto.getTitle())
+        .description(diaryDto.getDescription())
+        .mood(diaryDto.getMood()).build();
+        diaryRepository.save(diary);
+        return "success";
+    }
+
+    private MoodMeterEntity setMoodMeter(MoodMeterColor moodMeterColor) {
+
     }
 
     //Read

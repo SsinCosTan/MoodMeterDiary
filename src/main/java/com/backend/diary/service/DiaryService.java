@@ -1,6 +1,6 @@
 package com.backend.diary.service;
 
-import com.backend.moodmeter.config.MoodMeterColor;
+import com.backend.diary.model.DiaryDto;
 import com.backend.moodmeter.model.MoodMeterDto;
 import java.util.List;
 
@@ -8,7 +8,7 @@ import java.util.List;
 public interface DiaryService {
 
     //매개변수 생각해 보기
-    void setMoodMeter(MoodMeterColor moodMeterColor);
+    String setDiary(DiaryDto diaryDto);
 
     List<MoodMeterDto> getMoodMeterList();
 
