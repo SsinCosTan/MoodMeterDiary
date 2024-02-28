@@ -1,12 +1,15 @@
 package com.backend.diary.service;
 
-import com.backend.diary.config.MoodMeterColor;
-import com.backend.diary.model.MoodMeterDto;
-import com.backend.diary.model.MoodMeterEntity;
+import com.backend.diary.model.DiaryEntity;
 import com.backend.diary.model.DiaryRepository;
+import com.backend.moodmeter.config.MoodMeterColor;
+import com.backend.moodmeter.model.MoodMeterDto;
+import com.backend.moodmeter.model.MoodMeterEntity;
+import com.backend.moodmeter.model.MoodMeterRepository;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
 //Todo
 @Service
 @RequiredArgsConstructor
@@ -19,7 +22,8 @@ public class DiaryServiceImpl implements DiaryService {
     //Todo UserID, DiaryID와 같이 저장 되어야 함
     @Override
     public void setMoodMeter(MoodMeterColor moodMeterColor) {
-        diaryRepository.save(MoodMeterEntity.builder().mood(moodMeterColor).build());
+        MoodMeterEntity mood = MoodMeterEntity.builder().mood(moodMeterColor).build();
+        diaryRepository.save(DiaryEntity.builder().moodMeterEntity(mood).build());
     }
 
     //Read
